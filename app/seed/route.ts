@@ -116,4 +116,4 @@ export async function GET() {
   }
 }
 console.log("Debug: Route accessed");
-console.error("Error during seeding process:", error);
+console.error("Error during seeding process:", Error);
